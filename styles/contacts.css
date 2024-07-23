@@ -1,0 +1,62 @@
+#Contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 128px 120px 200px;
+  gap: 48px;
+
+  background: url(../assets/images/Background_Contacts.png) center/cover
+    no-repeat;
+}
+
+a {
+  text-decoration: none;
+  font: var(--text-md);
+  color: var(--gray-500);
+}
+
+#links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.social-button {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 20px;
+  gap: 12px;
+
+  width: 400px;
+
+  background-color: var(--gray-300);
+  border-radius: 8px;
+}
+
+.social-button div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.ArrowUpRight {
+  margin-left: auto;
+  height: 20px;
+  width: 20px;
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
+}
+
+a:hover {
+  border: 1px solid var(--blue);
+
+  .icon {
+    filter: brightness(0) saturate(100%) invert(46%) sepia(79%) saturate(462%)
+      hue-rotate(163deg) brightness(99%) contrast(88%);
+  }
+}

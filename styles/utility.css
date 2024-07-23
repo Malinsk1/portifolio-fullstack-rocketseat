@@ -1,0 +1,36 @@
+/* fonts */
+.title-lg {
+  font: var(--title-lg);
+}
+
+.title-md {
+  font: var(--title-md);
+  color: var(--gray-600);
+}
+
+.title-sm {
+  font: var(--title-sm);
+  color: var(--gray-600);
+}
+
+.subtitle {
+  font: var(--subtitle);
+}
+
+.text-md {
+  font: var(--text-md);
+}
+
+.text-sm {
+  font: var(--text-sm);
+}
+
+.subtitle-red {
+  color: var(--red);
+  font: var(--subtitle);
+}
+
+.subtitle-purple {
+  color: var(--purple);
+  font: var(--subtitle);
+}

@@ -1,0 +1,44 @@
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+#cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+  margin: 56px auto 144px;
+}
+
+.card {
+  background-color: var(--gray-300);
+  border-radius: 12px;
+  padding: 12px;
+  max-width: 330px;
+}
+
+.card h4 {
+  font: var(--title-sm);
+  color: var(--gray-600);
+}
+
+.card p {
+  font: var(--text-sm);
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 4px 17px;
+  gap: 8px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card:hover {
+  border: 1px solid var(--gray-500);
+}

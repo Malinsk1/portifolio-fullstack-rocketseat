@@ -1,0 +1,40 @@
+#Services-section {
+  background-color: var(--gray-100);
+  padding: 88px 120px 120px;
+}
+
+#Services-section header {
+  margin-bottom: 56px;
+}
+
+#services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 56px;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 24px;
+
+  width: 280px;
+
+  border: 2px solid var(--gray-200);
+  border-radius: 12px;
+}
+
+.service h2 {
+  font: var(--title-sm);
+  color: var(--gray-600);
+  margin-bottom: 8px;
+}
+
+.service p {
+  font: var(--text-sm);
+}
